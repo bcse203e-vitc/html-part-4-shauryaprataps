@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Form</title>
+</head>
+<body>
+    <h1>Travel Booking Form</h1>
+    <form action="#" method="post">
+        
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="contactInfo">Contact Information:</label><br>
+        <input type="tel" id="contactInfo" name="contactInfo"  required><br><br>
+
+        <label for="destination">Destination:</label><br>
+        <select id="destination" name="destination" required>
+            <option value="">Select a destination</option>
+            <option value="paris">Paris</option>
+            <option value="newyork">New York</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="sydney">Sydney</option>
+        </select><br><br>
+
+        <label for="travelDate">Travel Dates:</label><br>
+        <input type="date" id="travelDate" name="travelDate" required><br><br>
+
+        <label for="travelers">Number of Travelers:</label><br>
+        <input type="number" id="travelers" name="travelers" min="1" required><br><br>
+
+        <label>Travel Class:</label><br>
+        <input type="radio" id="economy" name="travelClass" value="economy" required>
+        <label for="economy">Economy</label><br>
+        <input type="radio" id="business" name="travelClass" value="business">
+        <label for="business">Business</label><br>
+        <input type="radio" id="firstClass" name="travelClass" value="firstClass">
+        <label for="firstClass">First Class</label><br><br>
+
+        <input type="checkbox" id="insurance" name="insurance">
+        <label for="insurance">Opt for travel insurance</label><br><br>
+
+        <p><strong>Total Cost:</strong></p><br>
+
+        <button type="submit">Book Travel</button>
+    </form>
+</body>
+</html>
