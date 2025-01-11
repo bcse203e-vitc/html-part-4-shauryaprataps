@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customizable Form Template</title>
+</head>
+<body>
+  <h2>Customizable Form Template</h2>
+
+  <form>
+    
+      <legend>Customize Your Form</legend>
+
+      <label for="formName">Form Name:</label>
+      <input type="text" id="formName" name="formName" required><br><br>
+
+      <label for="numFields">Number of Input Fields:</label>
+      <input type="number" id="numFields" name="numFields" min="1"  required><br><br>
+
+      <label for="fieldType">Field Types:</label>
+      <select id="fieldType" name="fieldType">
+        <option value="text">Text</option>
+        <option value="email">Email</option>
+        <option value="number">Number</option>
+        <option value="date">Date</option>
+      </select><br><br>
+
+      <label for="fieldLabel">Field Labels:</label>
+      <input type="text" id="fieldLabel" name="fieldLabel"  required><br><br>
+    
+    
+  </form>
+
+  
+  <form>
+    
+    
+      <legend>My Custom Form</legend><br>
+      
+      <label for="sampleText">Sample Text Field:</label>
+      <input type="text" id="sampleText" name="sampleText"><br><br>
+
+      <label for="sampleEmail">Sample Email Field:</label>
+      <input type="email" id="sampleEmail" name="sampleEmail"><br><br>
+
+      <label for="sampleNumber">Sample Number Field:</label>
+      <input type="number" id="sampleNumber" name="sampleNumber"><br><br>
+
+      <label for="sampleDate">Sample Date Field:</label>
+      <input type="date" id="sampleDate" name="sampleDate"><br><br>
+    
+    <button type="submit">Submit Form</button>
+  </form>
+</body>
+</html>

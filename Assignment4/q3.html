@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Feedback Form</title>
+</head>
+<body>
+ <h1> Feedback Form</h1>
+ <form action="/login" method="post">
+   
+ <label for="name">Name:</label><br>
+ <input type="text" id="Name" name="Name" required><br><br>
+ 
+ <label for="email">E-mail:</label><br>
+ <input type="email" id="email" name="email" required><br><br>
+ 
+ <label>Rate Us:</label><br>
+<input type="radio" id="1 star" name="rating" value="1 star"> 
+<lable for="1 star">1 star</lable><br>
+<input type="radio" id="2 star" name="rating" value="2 star"> 
+<lable for="2 star">2 star</lable><br>
+<input type="radio" id="3 star" name="rating" value="3 star"> 
+<lable for="3 star">3 star</lable><br>
+<input type="radio" id="4 star" name="rating" value="4 star"> 
+<lable for="4 star">4 star</lable><br>
+<input type="radio" id="5 star" name="rating" value="5 star"> 
+<lable for="5 star">5 star</lable><br><br>
+
+<label for="feedback">Feedback</label><br>
+  <select id="feedback" name="feedback">
+    <option value="">What's your feedback:</option>
+    <option value="Suggestion">Suggestion</option>
+     <option value="Bug Report">Bug Report</option>
+      <option value="Compliment">Compliment</option>
+  </select><br><br>
+  
+ 
+ <label for="Comments">Give us your feedback:</label><br>
+ <textarea id="Additional Comments" name="Additional Comments" rows="4" cols="50"></textarea>
+  <br><br>
+  
+
+  
+ <button type="submit">Register</button><br><br>
+ <button type="submit">Reset</button><br><br>
+ 
+ <label>Would you recommend Us:</label><br>
+<input type="radio" id="yes" name="recommend" value="yes"> 
+<lable for="yes">Yes</lable><br>
+<input type="radio" id="no" name="recommend" value="no"> 
+<lable for="no">No</lable><br>
+ 
+
+ </form>
+</body
